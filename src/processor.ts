@@ -23,7 +23,7 @@ const dbOptions = {
 		TransfersTable: new Table('transfers.csv', {
 			from: Column(Types.String()),
 			to: Column(Types.String()),
-			value: Column(Types.Integer())
+			value: Column(Types.Numeric())
 		})
 	},
 	dest: new S3Dest(
