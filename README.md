@@ -14,9 +14,8 @@ $ git clone https://github.com/subsquid-labs/file-store-s3-example
 $ cd file-store-s3-example/
 $ npm i
 ```
-Next, set your bucket name and authentication credentials in `.env`:
+Next, create a `subsquid-testing-bucket` bucket at your Filebase account and set your authentication credentials in `.env`:
 ```bash
-S3_BUCKET_NAME=subsquid-testing-bucket
 S3_ACCESS_KEY_ID=myKeyId
 S3_SECRET_ACCESS_KEY=mySecretAccessKey
 ```
