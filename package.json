@@ -3,17 +3,16 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "@subsquid/archive-registry": "^3.3.0",
-    "@subsquid/evm-processor": "^1.14.1",
+    "@subsquid/evm-processor": "^1.18.0",
     "@subsquid/evm-typegen": "3.3.0",
     "@subsquid/file-store-csv": "^1.2.1",
     "@subsquid/file-store-s3": "^2.0.1",
-    "dotenv": "^16.4.4",
+    "dotenv": "^16.4.5",
     "ethers": "^6.11.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.17",
+    "@types/node": "^20.12.7",
     "typechain": "^8.3.2",
-    "typescript": "~5.3.3"
+    "typescript": "~5.4.5"
   }
 }
