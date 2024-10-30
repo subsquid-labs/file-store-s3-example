@@ -10,9 +10,9 @@ Dependencies: NodeJS, [Squid CLI](https://docs.subsquid.io/squid-cli).
 
 To see it in action, clone the repository and install dependencies:
 ```bash
-$ git clone https://github.com/subsquid-labs/file-store-s3-example
-$ cd file-store-s3-example/
-$ npm i
+git clone https://github.com/subsquid-labs/file-store-s3-example
+cd file-store-s3-example/
+npm i
 ```
 Next, create a `subsquid-testing-bucket` bucket at your Filebase account and set your authentication credentials in `.env`:
 ```bash
@@ -21,6 +21,6 @@ S3_SECRET_ACCESS_KEY=mySecretAccessKey
 ```
 Finally, spin up a *processor*, a process that ingests the data from the Ethereum Archive:
 ```bash
-$ sqd process
+sqd process
 ```
 You should see a `transfers-data` folder populated with indexer data appear in the bucket in a bit.
