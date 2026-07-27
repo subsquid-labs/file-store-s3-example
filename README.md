@@ -19,7 +19,7 @@ Next, create a `subsquid-testing-bucket` bucket at your Filebase account and set
 S3_ACCESS_KEY_ID=myKeyId
 S3_SECRET_ACCESS_KEY=mySecretAccessKey
 ```
-Finally, spin up a *processor*, a process that ingests the data from the Ethereum Archive:
+Finally, spin up a *processor*, a process that ingests the data from the SQD Network Portal:
 ```bash
 sqd process
 ```
